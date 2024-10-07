@@ -1,0 +1,17 @@
+{
+  "name": "streamyard-shortcuts",
+  "version": "1.0.0",
+  "description": "Chrome extension for Streamyard shortcuts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "zip": "cd dist && zip -r ../streamyard-shortcuts.zip *"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.237",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
